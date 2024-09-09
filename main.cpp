@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
@@ -46,7 +47,7 @@ int enter_text(char **dinamic_mass_strings, FILE *inputfile, int max_number_of_s
 
         strcpy(dinamic_mass_strings[current_string], buffer_string);
 
-
+        printf("1");
         current_string ++;
 
 
